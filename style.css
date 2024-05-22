@@ -1,0 +1,113 @@
+body{
+    font-family: Georgia;
+    background-image: url(./kepek/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header, footer{
+    background-color: #ce8652;
+}
+
+footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+}
+
+#focim{
+    text-align: center;
+    font-size: 350%;
+    letter-spacing: 2px;
+    color: #632f0a;
+    font-family: "Courier New";
+    font-weight: bold;
+    padding: 15px;
+}
+
+nav{
+    font-size: 150%;
+}
+
+#logo{
+    font-size: 130%;
+}
+
+.doboz{
+    background-color: rgba(228, 162, 115, 0.9);
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #4b2206;
+    margin-bottom: 200px;
+}
+
+.galeria_kepek{
+    max-height: 600px;
+    max-width: 1000px;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+#galeria{
+    max-height: 600px;
+    max-width: 1000px;
+   display: flex;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+
+.carousel {
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.carousel-inner {
+display: flex; 
+}
+
+.carousel img {
+height: 600px;
+width: 1000px;
+max-width: 100%; 
+max-height: 100%; 
+}
+
+#ejszakak{
+    width: 100px;
+}
+
+#video{
+    display: block;
+    margin: 0 auto;
+}
+
+.gomb{
+    margin-top: 30px;
+    background-color: rgb(223, 145, 90);
+    border-color: rgb(121, 66, 15);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.gomb:hover{
+    background-color: rgb(230, 158, 107);
+}
+
+#zene{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    font-weight: bold;
+}
+
+#gyermek{
+    transform: scale(1.5);
+    margin-left: 10px;
+}
